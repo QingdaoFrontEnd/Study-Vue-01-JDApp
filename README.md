@@ -90,6 +90,19 @@ npm run build
 
 ![](./MarkdownImg/OK.png)
 
+```bash
+master (主干: 建议不要在主干分支开发)
+    |
+    |_ Init         (初始分支-当重置项目时,可采用此分支)
+    |
+    |_ Sass         (预处理器为Sass的开发分支)
+    |
+    |_ Less         (预处理器为Less的开发分支)
+    |
+    |_ CSS          (无预处理器的开发分支)
+
+```
+
 关于Vue-loader的文档可在此处阅读 [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 测试机器: iPhone 6s
